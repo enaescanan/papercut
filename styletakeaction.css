@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    font-family: Helvetica Neue;
+}
+
+#header {
+    width: 100%;
+    height: 72px;
+    border-top: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #000;
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    /*
+top
+right
+bottom
+left
+    look for proper sequence
+    border: 0px 0px 3px 0px solid #000;
+    */
+}
+
+#header img {
+    height: 95%;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container2 {
+    width: 85%;
+    margin: 0 auto;
+}
+.col_100 {
+    width: 100%;
+}
+
+.col_50 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col_60 {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col_40 {
+    width:40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col_70 {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col_30 {
+    width:30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col2_70 {
+    width: 70%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.col2_30 {
+    width:30%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.textright {
+    text-align: right;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0px;
+    margin-top: 7px;
+}
+
+.nav {
+    margin-left: 10px; 
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+    border-color: #000;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.cta_button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+    border-color: #000;
+    border-width: 3px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+}
+
+a:hover {
+    background-color: #1A237E;
+    color: white;
+    font-weight: 600;
+}
+
+a:active {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+#fm {
+    width: 80%;
+    margin-top: 120px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+
+.col_100 img {
+    width: 100%;
+}
+
+#hellos {
+    height: 300px;
+    vertical-align: middle;
+}
+
+#tip1_img {
+    width: 80%;
+}
+
+.tip2 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-top: 30px;
+    
+}
+h1 {
+    font-size: 60px;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 35px; 
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#chart {
+    width: 85%;
+    margin-left: 85px;
+    padding-top: 30px;
+}
+
+#certs {
+    width: 40%;
+    padding-left: 90px;
+}
+
+#check {
+    width: 50%;
+    padding-left: 35px;
+}
+
+.tip2_2 {
+    margin-top: 15px;
+    vertical-align: text-top;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+}
+
+#temp {
+    list-style-image: url(images/temp.png);
+    vertical-align: middle;
+}
+
+#bin_img {
+    margin-top: 70px;
+    height: 820px;
+    padding-left: 200px;
+}
+
+#format {
+    width: 80%;
+    padding-left: 100px;
+}
+
+#lastmsg p {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.icon {
+    width: 80%;
+    padding-bottom: 50px;
+}
+
+#lastmsg {
+    margin-top: 125px;
+}
+
+
+#pfloat {
+    width: 65%;
+    margin-top: 100px;
+    padding-left: 100px;
+}
+
+#end {
+    margin-top: 50px;
+    height: 500px;
+    color: #FFF;
+    background-image: url(images/blue_wave.png);
+    background-repeat: repeat-x;
+}
+
+#printing {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+ol li {
+    list-style: decimal;
+}
+/*
+width
+height
+margin
+padding
+borders
+*/

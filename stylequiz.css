@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    font-family: Helvetica Neue;
+}
+
+#header {
+    width: 100%;
+    height: 72px;
+    border-top: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #000;
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    /*
+top
+right
+bottom
+left
+    look for proper sequence
+    border: 0px 0px 3px 0px solid #000;
+    */
+}
+
+#header img {
+    height: 95%;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.col_100 {
+    width: 100%;
+}
+
+.col_50 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col_70 {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.col_30 {
+    width:30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.textright {
+    text-align: right;
+    border-color: #000;
+    border-style: solid;
+    border-width: 0px;
+    margin-top: 7px;
+}
+
+.nav {
+    margin-left: 10px; 
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+    border-color: #000;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.cta_button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
+    border-color: #000;
+    border-width: 3px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+}
+
+#q1 {
+    margin-top: 120px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a:hover {
+    background-color: #1A237E;
+    color: white;
+    font-weight: 600;
+}
+
+a:active {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.label {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+
+input[type=text] {
+    width: 180;
+    height: 180;
+    margin: 10px;
+    border-radius: 50%;
+    border-color:#000;
+    border-width: 3px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+}
+
+input::placeholder, input:placeholder-shown {
+    font-size: 25px;
+    font-weight: 250px;
+    color: #FFF;
+    text-align: center;
+}
+
+.textcircles {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.button { 
+    text-align: right;
+    
+}
+/*
+width
+height
+margin
+padding
+borders
+*/
