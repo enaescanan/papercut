@@ -1,8 +1,11 @@
   $( function() {
-// homeurl ="http://www.LSpapercut.com"
- homeurl ="file:///C:/Users/justin/Documents/papercut/"
+    // homeurl ="http://www.LSpapercut.com"
+var href = window.location.href;
+var homeurl = href.substring(0, href.lastIndexOf('/')) + "/";
+      
       
       $("#submitquiz").click(function() {
+//           alert(homeurl);
   var total = 0;
   $("body").find('input').each(function(){
       
