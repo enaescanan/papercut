@@ -17,8 +17,9 @@ var homeurl = href.substring(0, href.lastIndexOf('/')) + "/";
     total += parseInt($(this).val()); 
   });
           
-
-          if ($("body").attr("id").val == "squiz") {
+          
+          
+          if ($("body").attr("id") == "squiz") {
               audience = "slm";
           } else {
               audience = "flm";
